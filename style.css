@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,300&display=swap');
+
+body{
+   background-image: url(weather.jpg);
+   background-size: 100%;
+   min-height: 100%;
+   min-width: 100%;
+   background-repeat: no-repeat;
+   margin: 0;
+   font-family: 'Nunito Sans', sans-serif;
+}
+.header{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.data{
+	margin-left: 20vw;
+}
+/*Put a box around the text!*/
+#box{
+	border: 3px solid purple;
+	margin-right: 20vw;
+	padding: 10px;
+	background-color: beige;
+}
